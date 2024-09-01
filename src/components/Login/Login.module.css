@@ -1,0 +1,72 @@
+.loginForm label,
+.loginForm input {
+  display: block;
+}
+
+.loginWrapper {
+  border: 1px solid;
+  display: grid;
+  justify-content: center;
+  margin: auto;
+  width: fit-content;
+  padding: 2rem 5rem;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.loginWrapper > h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.loginWrapper > p {
+  font-size: 1.2rem;
+}
+
+.loginWrapper > form {
+  margin-top: 2rem;
+  text-align: start;
+}
+
+.loginWrapper > form > label {
+  margin-top: 2rem;
+}
+
+.loginWrapper > form > label > input {
+  width: 450px;
+  padding: 5px;
+}
+
+.loginWrapper > form > label {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.loginWrapper > form > button {
+  width: 100%;
+  padding: 8px 18px;
+  text-transform: uppercase;
+  background-color: white;
+  border-radius: 6px;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.login__signup {
+  border-top: 1px solid;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.login__signup > p > a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.loginError {
+  color: crimson;
+  font-weight: bold;
+  margin: 10px 0;
+}

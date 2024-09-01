@@ -1,0 +1,33 @@
+.headerNav {
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.headerNav > ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.headerNav > ul a,
+.headerNav > ul > li {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.headerNav > ul a:hover,
+.headerNav > ul > li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
